@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #42C2FF; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8ea9b7; 
+  }
+
+hr{
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.img-me{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300%;
+}
+
+.my-img{
+    width: 35%;
+}
+
+h1,h2{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.sectionContainer{
+    padding-top: 66px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-links a{
+    color: #A8A8A8;
+}
+
+.nav-links a:hover{
+    color: #42C2FF;
+}
+
+.btn-contact{
+    padding: 7px 30px;
+    color: #B68EB7;
+    border: 1px solid #42C2FF;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 0 #42C2FF;
+    transition: ease-out 0.3s;
+}
+
+.btn-contact:hover{
+    color: white;
+    background-color: #42C2FF;
+    box-shadow: inset 151.526px 0 0 0 #42C2FF;
+}
+
+.btn-contact1{
+    padding: 6px 20px;
+    color: #B68EB7;
+    border: 1px solid #42C2FF;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 0 #42C2FF;
+    transition: ease-out 0.3s;
+}
+
+.btn-contact1:hover{
+    color: white;
+    background-color: #42C2FF;
+    box-shadow: inset 151.526px 0 0 0 #42C2FF;
+}
+
+.footer-text{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.back-to-top{
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    text-align: center;
+    padding: 8px 9px 8px 6px;
+}
+
+.back-to-top svg{
+    transform: rotate(-90deg);
+}
